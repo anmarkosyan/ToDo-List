@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+          integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ="
+          crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="CSS/login.css">
+
+    <title>TODO LIST</title>
+
+</head>
+<body>
+<div class="container">
+    <h1 class="label">Member Login</h1>
+    <form class="login_form" name="form" method="post" action="main.html" onsubmit="return validated()">
+
+        <div class="font"> </div >
+        <input  autocomplete="off" id="username"   type="text"   name='username' placeholder="Username ">
+        <div id="user_error"> Please fill up your username</div>
+
+        <div class="font2"> </div>
+        <input   id='password' type="password"    name="password" placeholder="password" >
+        <div id="pass_error" >Please fill up your password</div>
+
+        <button  type="submit">Sign in</button>
+    </form>
+</div>
+<script defer src="JS/login.js"></script>
+</body>
+</html>
