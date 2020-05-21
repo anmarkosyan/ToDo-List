@@ -19,7 +19,7 @@ body{
     border-radius: 5px;
 }
 .label{
-    font-family: "Ubuntu", sans-serif;
+    font-family: 'Balsamiq Sans', cursive;
     padding: 20px 100px;
     font-size: 35px;
     color: #474646;
@@ -48,14 +48,14 @@ body{
 #password {
     border: none;
     border-radius: 50px;
-    font-family: "Ubuntu", sans-serif;
+    font-family: 'Balsamiq Sans', cursive;
 }
 .login_form button{
     margin: 45px 0 30px 0;
     height: 45px;
     width: 365px;
     font-size: 20px;
-    font-family: "Ubuntu", sans-serif;
+    font-family: 'Balsamiq Sans', cursive;
     color: white;
     outline: none;
     cursor: pointer;
